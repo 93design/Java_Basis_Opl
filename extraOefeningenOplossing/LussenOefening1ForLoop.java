@@ -1,6 +1,6 @@
 package Oplossing;
 
-public class LussenOefening1 {
+public class LussenOefening1ForLoop {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

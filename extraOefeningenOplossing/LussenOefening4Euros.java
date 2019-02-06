@@ -2,7 +2,7 @@ package Oplossing;
 
 import java.util.Scanner;
 
-public class LussenOefening4 {
+public class LussenOefening4Euros {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub		

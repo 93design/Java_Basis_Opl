@@ -2,7 +2,7 @@ package Oplossing;
 
 import java.util.Scanner;
 
-public class LussenOefening3 {
+public class LussenOefeningIfelseIfelse {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub		
