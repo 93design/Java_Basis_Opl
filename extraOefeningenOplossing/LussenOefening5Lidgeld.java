@@ -28,7 +28,7 @@ public class LussenOefening5Lidgeld {
 		
 		for (; numKids > 0; numKids--) {
 			if (numKids > 5) {
-				numKids-=5;
+				numKids = 0;
 				fee-=5;
 			} else {
 				System.out.println("childDiscount");
