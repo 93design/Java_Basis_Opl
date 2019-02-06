@@ -25,10 +25,16 @@ public class LussenOefening5Lidgeld {
 			System.out.println("Age discount: " + AGE_REDUX);
 			fee -= AGE_REDUX;
 		}
-
+		
 		for (; numKids > 0; numKids--) {
-			System.out.println("childDiscount");
-			fee -= KID_REDUX;
+			if (numKids > 5) {
+				numKids-=5;
+				fee-=5;
+			} else {
+				System.out.println("childDiscount");
+				fee -= KID_REDUX;
+			}
+			
 		}
 
 		if (anIncome < 12500) {
