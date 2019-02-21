@@ -1,4 +1,4 @@
-package be.intecbrussel.basis.exercise09_CarUml2;
+package carEnginePassengerUML;
 
 public class Engine {
 
@@ -8,7 +8,7 @@ public class Engine {
 		engineRunning = true;
 	}
 	public void stopEngine( ) {
-		engineRunning = true;
+		engineRunning = false;
 	}
 	
 	public boolean isEngineRunning() {

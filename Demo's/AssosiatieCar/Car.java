@@ -1,4 +1,4 @@
-package be.intecbrussel.basis.exercise09_CarUml2;
+package carEnginePassengerUML;
 
 public class Car {
 	
