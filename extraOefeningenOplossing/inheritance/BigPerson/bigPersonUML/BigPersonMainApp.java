@@ -7,10 +7,16 @@ public class BigPersonMainApp {
 			House gamerHouse = new House(gamerAddress);
 			
 			Gamer gamer = new Gamer();
+			Photographer photographer = new Photographer();
 			
 			
 			
 			Hobby printen = new printen3D();
+			Hobby gaming = new Gaming();
+			Hobby photoshop = new Photoshopping();
+			
+			photographer.addHobby(photoshop);
+			gaming.setLocation(gamerAddress);
 			System.out.println(printen.toString());
 		
 			gamerHouse.getHobbyRoom().setHobby(printen);
