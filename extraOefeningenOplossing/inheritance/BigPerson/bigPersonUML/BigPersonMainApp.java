@@ -5,11 +5,15 @@ public class BigPersonMainApp {
 		public static void main(String[] args)  {
 			Address gamerAddress = new Address("Aaishove", 17, "Ramskapelle");
 			House gamerHouse = new House(gamerAddress);
+			
 			Gamer gamer = new Gamer();
+			
+			
 			
 			Hobby printen = new printen3D();
 			System.out.println(printen.toString());
 		
+			gamerHouse.getHobbyRoom().setHobby(printen);
 			gamer.addHobby(printen);
 			gamer.setNickName("jg007");
 			
@@ -20,9 +24,11 @@ public class BigPersonMainApp {
 			gamer.addPet(Marcel);
 			gamer.addPet(Sasha);
 			
-			gamer.setHouse(gamerHouse);;
+			gamer.setHouse(gamerHouse);
 			System.out.println(gamer);
 			printen.setLocation(gamerAddress);
 			gamer.showMyHobbies();
+			
+			System.out.println(gamer.getHouse());
 		}	
 }

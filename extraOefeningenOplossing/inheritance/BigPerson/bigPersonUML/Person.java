@@ -66,10 +66,9 @@ public abstract class Person {
 	}
 
 	public House getHouse() {
-		// TODO Auto-generated method stub
-		return null;
+		return house;
 	}
-	
+
 	public void addHobby(Hobby hobby) {
 		hobbies = Arrays.copyOf(hobbies, hobbies.length +1);
 		hobbies[hobbies.length-1] = hobby;

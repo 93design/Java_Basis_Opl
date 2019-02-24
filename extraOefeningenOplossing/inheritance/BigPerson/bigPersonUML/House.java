@@ -29,6 +29,22 @@ public class House {
 	public void setAddress(Address address) {
 		this.address = address;
 	}
+
+	public HobbyRoom getHobbyRoom() {
+		return hobbyRoom;
+	}
+
+	public void setHobbyRoom(HobbyRoom hobbyRoom) {
+		this.hobbyRoom = hobbyRoom;
+	}
+
+	@Override
+	public String toString() {
+		return "House [address=" + address + ", " + livingRoom + " " + hobbyRoom + "]";
+	}
+	
+	
+	
 	
 	
 	
