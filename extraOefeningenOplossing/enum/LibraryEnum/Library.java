@@ -1,10 +1,12 @@
 package LibraryEnum;
 
+import java.util.Arrays;
+
 public class Library {
 	
 	private String name;
-	private Writer[] writers;
-	private Book[] books;
+	private Writer[] writers= new Writer[0];
+	private Book[] books = new Book[0];
 	
 	public Library(String name) {
 		super();
@@ -35,4 +37,28 @@ public class Library {
 		this.books = books;
 	}
 	
+	public void addBook(Book bookIn) {
+		books = Arrays.copyOf(books, books.length+1);
+		books[books.length-1] = bookIn;
+	}	
+	
+	public void printCategory(BookCategory category) {
+		System.out.println("Listing the " + category + "collection");
+		int count= 0;
+		for(Book book: books) {
+			if(book.getCategory().equals(category)) {
+				System.out.println(book);
+				count++;
+			}
+		
+		}
+		System.out.println("we have" + count + " books of this category");
+		
+	}
+	
+	public void printBooks() {
+		for(Book book: books) {
+			System.out.println(book);
+		}
+	}
 }

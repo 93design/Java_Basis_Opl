@@ -17,7 +17,12 @@ public class LibraryEnumApp {
 		Book[] tolkienBooks = {book1,book2,book3};
 		writer1.setBooks(tolkienBooks);
 		
+		library.addBook(book1);
+		library.addBook(book2);
+		library.addBook(book3);
 		
+		//library.printBooks();
+		library.printCategory(BookCategory.FICTION);
 	}
 
 }
