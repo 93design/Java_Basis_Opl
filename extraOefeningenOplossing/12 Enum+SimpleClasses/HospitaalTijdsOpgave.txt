@@ -6,12 +6,18 @@ Voor de patienten gaan we de basic zaken gaan bijhouden met de Gender en BloodTy
 
 
 Bij de zwangere vrouw gaan we een dag van geboorte toevoegen en ook een publieke methode die de dagen tot de geboorte zal terug geven. 
+
 Bij al het personeel wordt aan de hand van de startdatum en met de methodes getWerkDagen het aantal dagen sinds de eerset dag van werken bij het hospitaal. Met GetWerkJaren gaan we het aantal jaren gaan terug geven.
 Elke persoon, patient of staff zal een departement aan de hand van een ENUM toegewezen worden. 
+
 In de HospitaalApp die de Main bevat gaan we 4 mensen gaan aanmaken en voorzien van de correcte gegevens. 
+
 1 Zwangere vrouw, Fien Magda Dobbelaere die gaat bevallen op 1 juni 2019 en opgenomen is op 1 maart 2019 met bloedtype AB. Geboren op 5juni 1995;
-1 Gynecoloog, Julien Marcel Depauw die haar gaat bijstaan bij die bevalling. Deze man is gestart op 19-08-1993.
+
+1 Gynecoloog, Julien Marcel Depauw die haar gaat bijstaan bij die bevalling. Deze man is gestart op 23-06-1995.
+
 1 Een vrouwelijke BuikArts, Alexis Chris Claeys die nog maar net begonnen (13-02-2019) is en haar eerste operatie nog moet doen.
+
 1 Een vrouwelijke recptioniste, Margaritte Odette VanSteenkiste van de Afdeling Radiology die bijna op Pensioen mag. Begonnen 9 maart 1977 
 Bonus: bereken binnen hoeveel dagen Margaritte op pensioen mag als je weet dat ze er 42 jaar voor moest werken.
 
