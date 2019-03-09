@@ -1,4 +1,4 @@
-package PersonEnum;
+package PatientEnum;
 
 public class Patient extends Person {
 
@@ -22,6 +22,13 @@ public class Patient extends Person {
 	public void setBlood(BloodType blood) {
 		this.blood = blood;
 	}
+
+	@Override
+	public String toString() {
+		return "Patient [blood=" + blood + ", getName()=" + getName() + ", getAge()=" + getAge() + ", getWeigth()="
+				+ getWeigth() + ", getGender()=" + getGender() + "]";
+	}
+	
 	
 	
 	

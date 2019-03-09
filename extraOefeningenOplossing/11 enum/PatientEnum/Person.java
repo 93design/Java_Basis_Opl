@@ -1,4 +1,4 @@
-package PersonEnum;
+package PatientEnum;
 
 public class Person {
 
@@ -13,8 +13,7 @@ public class Person {
 		this.age = age;
 		this.weigth = weigth;
 		this.gender = gender;
-	}
-	
+	}	
 	
 	public String getName() {
 		return name;
@@ -39,6 +38,11 @@ public class Person {
 	}
 	public void setGender(Gender gender) {
 		this.gender = gender;
+	}
+
+	@Override
+	public String toString() {
+		return "Person [name=" + name + "]";
 	}
 	
 	

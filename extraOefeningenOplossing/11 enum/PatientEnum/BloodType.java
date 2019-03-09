@@ -1,4 +1,4 @@
-package PersonEnum;
+package PatientEnum;
 
 public enum BloodType {
 	
