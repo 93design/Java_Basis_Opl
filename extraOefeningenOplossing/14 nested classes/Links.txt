@@ -1,3 +1,5 @@
 https://www.tutorialspoint.com/java/java_innerclasses.htm
 
 https://www.youtube.com/watch?time_continue=1&v=h5iX4i-BcRw
+
+https://javaconceptoftheday.com/java-practice-coding-questions-on-nested-classes/
