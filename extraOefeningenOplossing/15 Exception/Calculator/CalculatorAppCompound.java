@@ -1,6 +1,6 @@
 package Calculator;
 
-public class CalculatorAppAdvanced {
+public class CalculatorAppCompound {
 	public static void main(String [] args) {
 		
 			//methode 1

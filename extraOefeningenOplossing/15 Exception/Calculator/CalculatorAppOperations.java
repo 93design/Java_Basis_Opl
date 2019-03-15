@@ -1,6 +1,6 @@
 package Calculator;
 
-public class CalculatorApp {
+public class CalculatorAppOperations {
 	public static void main(String [] args) {
 		
 			
