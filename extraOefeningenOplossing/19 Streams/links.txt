@@ -1,5 +1,16 @@
 
-
+Venkat Youtube
 
 Streams echt begin
 https://youtu.be/1OpAgZvYXLQ?t=5252
+
+Filters
+Predicate
+https://youtu.be/1OpAgZvYXLQ?t=5419
+
+Map Stream
+Function
+https://youtu.be/1OpAgZvYXLQ?t=5619
+
+
+https://youtu.be/1OpAgZvYXLQ?t=5619
