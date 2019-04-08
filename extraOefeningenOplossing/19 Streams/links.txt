@@ -12,5 +12,19 @@ Map Stream
 Function
 https://youtu.be/1OpAgZvYXLQ?t=5619
 
+//Both filter and Map stay in their swimLanes
 
-https://youtu.be/1OpAgZvYXLQ?t=5619
+//reduce cuts across swimlanes //reduce is wicked
+
+	 Filter     Map						Reduce
+	 									0.0
+	 									\
+---------------------------------		 \
+x1    |									  \
+---------------------------------		   \
+x2	  ->		x2'			->				+
+---------------------------------			 \
+x3    |										  \
+---------------------------------			   \
+x4    ->		x4'			->					+
+---------------------------------				 \
