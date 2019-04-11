@@ -1,0 +1,7 @@
+package House;
+
+public enum HouseType {
+	
+	SMALLAPPARTMENT,APPARTEMENT,DUPLEX,ROWHOUSE,PENTHOUSE,VILLA,CASTLE;
+
+}
