@@ -4,7 +4,7 @@ public class WebPage {
 	private Button button1;
     private Button button2;
     private Button button3;
-    private org.rastalion.chapter14_geneste_en_anonieme_klassen.demo1.Button button4;
+    private ButtonNested.Button button4;
 
     public WebPage () {
         setupWebsite();
@@ -21,20 +21,20 @@ public class WebPage {
                 false,"Need some help mema?");
         button3 = new Button("minimalize screen",
                 false, "nobody puts baby in the corner.");
-        button4 = new org.rastalion.chapter14_geneste_en_anonieme_klassen.demo1.Button("exit application",
+        button4 = new ButtonNested.Button("exit application",
                 false,"I'll be back");
     }
 
     @Override
     public String toString () {
         return "WebPage " +
-                "button1: " + button1 +
-                ", button2: " + button2 +
-                ", button3: " + button3 +
-                ", button4: " + button4;
+                "\nbutton1: " + button1 +
+                "\nbutton2: " + button2 +
+                "\nbutton3: " + button3 +
+                "\nbutton4: " + button4;
     }
 
-    class Button extends org.rastalion.chapter14_geneste_en_anonieme_klassen.demo1.Button {
+    class Button extends ButtonNested.Button {
 
         public Button (String action, boolean pushed, String message) {
             super(action, pushed, message);
@@ -74,8 +74,10 @@ public class WebPage {
         app.button4.setAction("New action");
 
         app.clickButton(app.button1);
-        app.clickButton(app.button2);
-        app.clickButton(app.button3);
+        //app.clickButton(app.button2);
+        //app.clickButton(app.button3);
+        
+
 
         System.out.println(app);
     }
