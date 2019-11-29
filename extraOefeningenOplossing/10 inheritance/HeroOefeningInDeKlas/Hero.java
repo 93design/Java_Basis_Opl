@@ -1,6 +1,6 @@
-package HeroOefening;
+package HeroOefeningInDeKlas;
 
-public abstract  class Hero {
+public abstract class Hero {
 	
 	private String alias;
 	private int age;
@@ -22,14 +22,4 @@ public abstract  class Hero {
 	public void setAge(int age) {
 		this.age = age;
 	}
-
-	@Override
-	public String toString() {
-		return "Hero [alias=" + alias + ", age=" + age + "]";
-	}
-	
-	
-	
-	
-	
 }
